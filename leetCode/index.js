@@ -1,1 +1,2 @@
-console.log("RIRIIIK")console.log("Ritik_novice")
+console.log("RIRIIIK");
+console.log("Ritik_novice")
