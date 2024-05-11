@@ -17,3 +17,34 @@
 // Input: word1 = "ab", word2 = "pqrs"
 // Output: "apbqrs"
 //solution:
+// let word1="abc";
+// let word2="pqr";
+// let merge1="";
+// if(word1.length===word2.length){
+// for (let i = 0; i < word1.length; i++) {
+//     let merge=(word1[i]||"")+(word2[i]||"");
+//     merge1+=merge
+//    }
+// }
+// else if(word1.length<word2.length){
+// for (let i = 0; i < word2.length; i++) {
+//     let merge=(word1[i]||"")+(word2[i]||"");
+//     merge1+=merge
+//    }
+// }
+// else{
+// for (let i = 0; i < word1.length; i++) {
+//     let merge=(word1[i]||"")+(word2[i]||"");
+//     merge1+=merge
+//    }
+// }
+// console.log(merge1)
+let word1="abc";
+let word2="pqr";
+let merge1="";
+
+for (let i = 0; i < word1.length+word2.length; i++) {
+   let merge=(word1[i]||"")+(word2[i]||"");
+    merge1+=merge
+   }
+console.log(merge1)
